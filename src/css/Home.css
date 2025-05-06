@@ -1,0 +1,64 @@
+.home-background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/fondo.jpg"); 
+    background-size: 100vw; /* La imagen ocupará la mitad superior */
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    overflow: hidden;
+}
+
+.home-backbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 90px;
+    }
+
+    
+}
+
+input, select, textarea{
+    border-radius: 20px ;
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-color: white;
+    border-style: none ;
+}
+
+textarea{
+    padding-top: 10px;
+    height: 50px;
+}
+
+.home-button{
+    border: solid white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navlink{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 700px) {
+    .home-background{
+        background-size: 200vh;
+    }
+  }
+

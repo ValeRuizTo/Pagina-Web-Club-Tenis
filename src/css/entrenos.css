@@ -1,0 +1,186 @@
+.Entrenos-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font: 600 26px/1.2 'Roboto', sans-serif;
+}
+.Entrenos-background {
+  height: 100vh;
+  background-color: #e6f6ff;
+  overflow: scroll;
+}
+
+.Entrenos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.Entreno-item {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.Entreno-image {
+  width: 50px;
+  height: 50px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Entreno-info {
+  flex-grow: 1;
+}
+
+.Entreno-info h3 {
+  margin: 0;
+  font: 500 20px/1.2 'Roboto', sans-serif;
+
+}
+
+.Entreno-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #6c757d;
+}
+
+.Entreno-time {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.Entreno-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+.entrenos-contenedor {
+  display: flex;
+  gap: 10px; 
+  justify-content:center; 
+}
+
+
+
+.Entrenos-card, 
+.entreno-setup {
+  background-color: white;
+  height: 50vh;
+  max-height: 400px;
+  width: 90vw;
+  margin: 20px auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+}
+
+.loading-text {
+  font-size: 2rem; /* Tamaño de fuente grande */
+  font-weight: bold;
+  color: #333; /* Color oscuro */
+  animation: pulse 1.5s infinite; /* Animación de pulso */
+}
+
+/* Animación de pulso */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+  justify-content: flex-start; 
+  align-items: center;
+  
+}
+
+button {
+  background-color: #d1cfcf;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  height: auto; 
+}
+
+button:hover {
+  background-color: #979797; /* Color de fondo cuando el mouse pasa por encima */
+}
+
+.Entreno-mark-attendance, .Entreno-remove-attendance {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button {
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px; 
+
+}
+.entreno-form-container {
+  display: flex;
+  flex-direction: column; /* Alineación vertical */
+  gap: 15px; /* Espacio entre los elementos */
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Ancho más estrecho para columna */
+  margin: 0 auto; /* Centrado horizontal */
+  align-items: center; /* Centrado de los elementos en la columna */
+}
+
+.entreno-form-container input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 60%; /* Campos ocupan todo el ancho del contenedor */
+}
+
+.asistencia-container{
+  display: flex;
+  gap: 10px; 
+  justify-content: flex-start; 
+  align-items: center;
+  margin-right: 25px;
+  
+
+}
+
+.delete-button {
+  margin-left: 10px; /* Ajusta el valor según el espacio deseado */
+}

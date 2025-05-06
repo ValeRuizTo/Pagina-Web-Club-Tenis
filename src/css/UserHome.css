@@ -1,0 +1,35 @@
+.User-background {
+  height: 100vh;
+  background-color: #e6f6ff;
+  overflow: hidden;
+}
+
+.User-card {
+    background: linear-gradient(to bottom, #C2D1B0, #ffffff); /* Degradado verde */
+    height: 400px;
+    width: 90vw;
+    margin: 50px auto;
+    border-radius: 20px ;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25); 
+    
+}
+
+.User-card-header {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+  text-align: center; 
+  
+}
+.home-button{
+  border: solid white;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
